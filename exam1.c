@@ -5,6 +5,7 @@
 int main()
 {
     char *desc;
+    int len = 0;
     desc = malloc(200*sizeof(char));
     if(desc == NULL)
     {
@@ -14,5 +15,7 @@ int main()
     {
         fprintf(stderr, "zzzz\n");
     }
+    len = strlen(desc);
+    printf("%d\n", len);
     exit(0);
 }
