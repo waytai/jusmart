@@ -1,0 +1,8 @@
+#!/bin/sh
+if [ -f liu ] 
+    then 
+        echo "liuzhiwei"
+    else
+        echo "in else"
+fi
+exit 1
