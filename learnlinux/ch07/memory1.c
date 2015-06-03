@@ -12,6 +12,7 @@ int main() {
     some_memory = (char *)malloc(megabyte);
     if (some_memory != NULL) {
         sprintf(some_memory, "Hello World\n");
+		memset(some_memory, '\0', sizeof(some_memory));
         printf("%s", some_memory);
         exit_code = EXIT_SUCCESS;
     }

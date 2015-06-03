@@ -1,0 +1,6 @@
+CC = gcc
+edit : nonblockw.o
+	$(CC) -o edit nonblockw.o
+nonblockw.o : nonblockw.c apue.h
+clean :
+	rm *.o nonblockw

@@ -1,0 +1,34 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL	Makefile	/^ALL= $(ARGS) $(ENV) $(TIME) $(TMP) $(USER) $(HOST) $(LOG) $(RES)$/;"	m
+ARGS	Makefile	/^ARGS=args argopt longopt$/;"	m
+ENV	Makefile	/^ENV=environ showenv$/;"	m
+HOST	Makefile	/^HOST=hostget$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS=-lm$/;"	m
+LOG	Makefile	/^LOG=syslog logmask$/;"	m
+RES	Makefile	/^RES=limits$/;"	m
+TIME	Makefile	/^TIME=envtime gmtime ctime strftime$/;"	m
+TMP	Makefile	/^TMP=tmpnam$/;"	m
+USER	Makefile	/^USER=user$/;"	m
+_GNU_SOURCE	longopt.c	5;"	d	file:
+_XOPEN_SOURCE	strftime.c	1;"	d	file:
+main	argopt.c	/^int main(int argc, char *argv[])$/;"	f
+main	args.c	/^int main(int argc, char *argv[])$/;"	f
+main	ctime.c	/^int main()$/;"	f
+main	environ.c	/^int main(int argc, char *argv[])$/;"	f
+main	envtime.c	/^int main()$/;"	f
+main	gmtime.c	/^int main()$/;"	f
+main	hostget.c	/^int main()$/;"	f
+main	limits.c	/^int main()$/;"	f
+main	logmask.c	/^int main()$/;"	f
+main	longopt.c	/^int main(int argc, char *argv[])$/;"	f
+main	showenv.c	/^int main()$/;"	f
+main	strftime.c	/^int main()$/;"	f
+main	syslog.c	/^int main()$/;"	f
+main	tmpnam.c	/^int main()$/;"	f
+main	user.c	/^int main()$/;"	f
+work	limits.c	/^void work()$/;"	f

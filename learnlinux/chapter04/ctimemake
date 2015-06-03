@@ -1,0 +1,4 @@
+CC = gcc
+ctime : ctime.o
+    $(CC) -o ctime ctime.o
+ctime.o : ctime.c

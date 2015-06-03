@@ -1,0 +1,6 @@
+CC = gcc
+edit : user.o
+	$(CC) -o edit user.o
+user.o : user.c
+clean :
+	rm *.o edit

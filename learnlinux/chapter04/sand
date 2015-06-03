@@ -1,0 +1,4 @@
+CC = gcc
+show : args.o
+    $(CC) -o show args.o
+args.o : args.c

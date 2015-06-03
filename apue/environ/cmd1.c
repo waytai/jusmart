@@ -27,6 +27,7 @@ do_line(char *ptr)		/* process one line of input */
 	while ((cmd = get_token()) > 0) {
 		switch (cmd) {	/* one case for each command */
 		case TOK_ADD:
+            printf("tok_add");
 				cmd_add();
 				break;
 		}
@@ -46,4 +47,5 @@ int
 get_token(void)
 {
 	/* fetch next token from line pointed to by tok_ptr */
+    return 4;
 }

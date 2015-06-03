@@ -1,0 +1,6 @@
+CC = gcc
+edit : writen.o
+	$(CC) -o edit writen.o
+writen.o : writen.c apue.h
+clean :
+	rm *.o edit
